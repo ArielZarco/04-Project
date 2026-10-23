@@ -98,12 +98,12 @@ main em {
     font-weight: 300;
 }
 
-main address {
+address {
     font-style: normal;
-    background-color: #427AED;
+    background-color: #999180;
     padding: .5rem;
     border-radius: 10px;
-    border: 10px dashed #EDDCB5;
+    border: 5px circle #EDDCB5;
 }
 
 main a {
@@ -125,4 +125,39 @@ footer p {
     font-size: .8rem;
     color: #333;
     letter-spacing: 3px;
+}
+
+figure {
+    float: right;
+}
+
+figure.wrapped {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: .75rem;
+}
+/* Gallery Stuff */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #376259;
 }
