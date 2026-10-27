@@ -67,6 +67,20 @@ main ol {
     background-color: black;
 }
 
+footer li a {
+    color: #999180;
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    color: #999180;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+footer li a:hover {
+    color: white;
+}
+
 main dl dt {
     color: aqua;
     font-weight: 700;
@@ -118,6 +132,7 @@ footer {
     background-color: #eaeaea;
     text-align: center;
     padding: 1rem 0;
+    clear: both;
 }
 
 footer p {
@@ -125,6 +140,8 @@ footer p {
     font-size: .8rem;
     color: #333;
     letter-spacing: 3px;
+    text-align: left;
+    padding: .83rem;
 }
 
 figure {
@@ -136,15 +153,17 @@ figure.wrapped {
     width: 40%;
     float: right;
 }
+
 figure.wrapped img {
     width: 100%;
     height: auto;
 }
 
-figure.wrapped figcaption{
+figure.wrapped figcaption {
     text-align: center;
     font-size: .75rem;
 }
+
 /* Gallery Stuff */
 div.gallery {
     display: flex;
