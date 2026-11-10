@@ -126,6 +126,8 @@ footer {
     text-align: center;
     padding: 1rem 0;
     clear: both;
+    min-height: 15dvh;
+    margin-top: auto;
 }
 
 footer p {
