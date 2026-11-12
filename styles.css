@@ -314,7 +314,7 @@ div.gallery figcaption {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.meeting-box h3 {
+.meeting-box legend {
     margin-top: 0;
     margin-bottom: 20px;
     color: #111111;
